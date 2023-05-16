@@ -26,12 +26,12 @@ function search() {
         }
     }
 
-    // hide other movies.
+    // hide other movies
     for(let j = 0; j < noneMatch.length; j++) {
         movieList[noneMatch[j]].style.display = 'none';
     }
 
-    // insert clear search on main page.
+    // insert clear search on main page
     document.body.insertBefore(newDiv, document.getElementById('movieList'));
     newDiv.setAttribute('id', 'resetBar');
     newDiv.appendChild(newButton);
