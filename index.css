@@ -1,0 +1,33 @@
+#login {
+    display: flex;
+    flex-direction: column;
+    margin-left: 33vw;
+    margin-right: 33vw;
+    margin-top: 5vw;
+}
+
+#loginH2 {
+    display: flex;
+    justify-content: center;
+}
+
+#btn-primary{
+    width: 100px;
+}
+
+#movie {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#poster {
+    height: 400px;
+    width: 300px;
+}
+
+a.moviePoster {
+    padding: 20px;
+}
+
